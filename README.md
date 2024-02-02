@@ -27,8 +27,11 @@ Once all details are filled in, click the Generate PDF button to create a PDF ve
 ## Components Overview
 
 InvoiceDetails.jsx: Main container component that orchestrates the flow of data between child components.
+
 InvoiceInfoHeader.jsx: Component for inputting basic invoice information.
+
 InvoiceItemsTable.jsx: Component for managing invoice items, including adding, editing, and deleting rows.
+
 InvoicePDF.jsx: Component for generating and downloading the invoice as a PDF document.
 
 ## Contributing
