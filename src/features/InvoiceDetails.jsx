@@ -49,14 +49,7 @@ const InvoiceDetails = () => {
         invoiceItemsTableData={rowItemData}
       />
       {/*InvoicePDF Ends */}
-      {/* TempInvoiceDetailsOutput start*/}
-      <div className="card w-auto my-8 bg-neutral">
-        <TempInvoiceDetailsOutput
-          invoiceInfoHeaderData={invoiceInfoHeader}
-          invoiceItemsTableData={rowItemData}
-        />
-      </div>
-      {/* TempInvoiceDetailsOutput ends*/}
+     
     </>
   );
 };
