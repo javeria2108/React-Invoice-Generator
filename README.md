@@ -18,23 +18,23 @@ This project is a React-based Invoice Generator that allows users to create and 
    npm install
    npm run dev
    ```
-##Usage
+## Usage
 
 Fill in the invoice information in the Invoice Info Header section.
 Add items to the invoice by using the Add Row button in the Invoice Items Table section. You can edit item details directly in the table and delete rows as needed.
 Once all details are filled in, click the Generate PDF button to create a PDF version of your invoice, which will then automatically download to your device.
 
-##Components Overview
+## Components Overview
 
 InvoiceDetails.jsx: Main container component that orchestrates the flow of data between child components.
 InvoiceInfoHeader.jsx: Component for inputting basic invoice information.
 InvoiceItemsTable.jsx: Component for managing invoice items, including adding, editing, and deleting rows.
 InvoicePDF.jsx: Component for generating and downloading the invoice as a PDF document.
 
-##Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit pull requests or create issues for bugs and feature requests.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
